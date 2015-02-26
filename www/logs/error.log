@@ -1790,3 +1790,376 @@
 2015/02/22 19:45:43 [notice] 21186#0: getrlimit(RLIMIT_NOFILE): 128:1024
 2015/02/22 19:45:43 [notice] 1299#0: start worker processes
 2015/02/22 19:45:43 [notice] 1299#0: start worker process 16389
+2015/02/22 20:19:54 [notice] 1299#0: signal 15 (SIGTERM) received, exiting
+2015/02/22 20:19:54 [notice] 16389#0: signal 15 (SIGTERM) received, exiting
+2015/02/22 20:19:54 [notice] 16389#0: exiting
+2015/02/22 20:19:54 [notice] 16389#0: exit
+2015/02/22 20:19:54 [notice] 1299#0: signal 20 (SIGCHLD) received
+2015/02/22 20:19:54 [notice] 1299#0: worker process 16389 exited with code 0
+2015/02/22 20:19:54 [notice] 1299#0: exit
+2015/02/24 14:28:58 [notice] 24416#0: using the "kqueue" event method
+2015/02/24 14:28:58 [notice] 24416#0: nginx/1.6.0
+2015/02/24 14:28:58 [notice] 24416#0: built by gcc 4.2.1 20070719 
+2015/02/24 14:28:58 [notice] 24416#0: getrlimit(RLIMIT_NOFILE): 128:1024
+2015/02/24 14:28:58 [notice] 18377#0: start worker processes
+2015/02/24 14:28:58 [notice] 18377#0: start worker process 8224
+2015/02/24 15:10:35 [notice] 18377#0: signal 15 (SIGTERM) received, exiting
+2015/02/24 15:10:35 [notice] 8224#0: signal 15 (SIGTERM) received, exiting
+2015/02/24 15:10:35 [notice] 8224#0: exiting
+2015/02/24 15:10:35 [notice] 8224#0: exit
+2015/02/24 15:10:35 [notice] 18377#0: signal 20 (SIGCHLD) received
+2015/02/24 15:10:35 [notice] 18377#0: worker process 8224 exited with code 0
+2015/02/24 15:10:35 [notice] 18377#0: exit
+2015/02/24 20:11:17 [notice] 15785#0: using the "kqueue" event method
+2015/02/24 20:11:17 [notice] 15785#0: nginx/1.6.0
+2015/02/24 20:11:17 [notice] 15785#0: built by gcc 4.2.1 20070719 
+2015/02/24 20:11:17 [notice] 15785#0: getrlimit(RLIMIT_NOFILE): 128:1024
+2015/02/24 20:11:17 [notice] 17478#0: start worker processes
+2015/02/24 20:11:17 [notice] 17478#0: start worker process 6658
+2015/02/24 20:13:13 [crit] 6658#0: *1 connect() to unix:/htdocs/chal01/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/phpinfo.php HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal01/var/run/php-fpm.sock:", host: "obsdhs"
+2015/02/24 20:13:13 [error] 6658#0: *1 open() "/htdocs/favicon.ico" failed (2: No such file or directory), client: 192.168.56.1, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", host: "obsdhs"
+2015/02/24 20:13:21 [crit] 6658#0: *3 connect() to unix:/htdocs/chal01/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/phpinfo.php HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal01/var/run/php-fpm.sock:", host: "obsdhs"
+2015/02/24 20:41:21 [error] 6658#0: *87 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/24 20:41:22 [error] 6658#0: *87 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/24 20:42:35 [emerg] 27795#0: unexpected "}" in /etc/nginx/conf.d/obsdhs.conf:25
+2015/02/24 20:42:35 [notice] 17478#0: signal 15 (SIGTERM) received, exiting
+2015/02/24 20:42:35 [notice] 6658#0: exiting
+2015/02/24 20:42:35 [notice] 17478#0: signal 23 (SIGIO) received
+2015/02/24 20:42:35 [notice] 6658#0: exit
+2015/02/24 20:42:35 [notice] 17478#0: signal 20 (SIGCHLD) received
+2015/02/24 20:42:35 [notice] 17478#0: worker process 6658 exited with code 0
+2015/02/24 20:42:35 [notice] 17478#0: exit
+2015/02/24 20:42:36 [emerg] 27999#0: unexpected "}" in /etc/nginx/conf.d/obsdhs.conf:25
+2015/02/24 20:42:47 [emerg] 22593#0: unexpected "}" in /etc/nginx/conf.d/obsdhs.conf:25
+2015/02/24 20:42:59 [notice] 5326#0: using the "kqueue" event method
+2015/02/24 20:42:59 [notice] 5326#0: nginx/1.6.0
+2015/02/24 20:42:59 [notice] 5326#0: built by gcc 4.2.1 20070719 
+2015/02/24 20:42:59 [notice] 5326#0: getrlimit(RLIMIT_NOFILE): 128:1024
+2015/02/24 20:42:59 [notice] 10514#0: start worker processes
+2015/02/24 20:42:59 [notice] 10514#0: start worker process 12033
+2015/02/24 20:43:00 [error] 12033#0: *1 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/24 20:43:01 [error] 12033#0: *1 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/24 20:43:01 [error] 12033#0: *1 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/24 20:43:06 [error] 12033#0: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal01/var/run/php-fpm.sock:", host: "obsdhs"
+2015/02/24 20:43:07 [error] 12033#0: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal01/var/run/php-fpm.sock:", host: "obsdhs"
+2015/02/24 20:43:08 [error] 12033#0: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal01/var/run/php-fpm.sock:", host: "obsdhs"
+2015/02/24 22:13:58 [notice] 12033#0: signal 15 (SIGTERM) received, exiting
+2015/02/24 22:13:58 [notice] 12033#0: exiting
+2015/02/24 22:13:58 [notice] 12033#0: exit
+2015/02/24 22:13:58 [notice] 10514#0: signal 20 (SIGCHLD) received
+2015/02/24 22:13:58 [notice] 10514#0: worker process 12033 exited with code 0
+2015/02/24 22:13:58 [notice] 10514#0: signal 15 (SIGTERM) received, exiting
+2015/02/24 22:13:58 [notice] 10514#0: exit
+2015/02/25 21:11:06 [notice] 29732#0: using the "kqueue" event method
+2015/02/25 21:11:06 [notice] 29732#0: nginx/1.6.0
+2015/02/25 21:11:06 [notice] 29732#0: built by gcc 4.2.1 20070719 
+2015/02/25 21:11:06 [notice] 29732#0: getrlimit(RLIMIT_NOFILE): 128:1024
+2015/02/25 21:11:06 [notice] 22850#0: start worker processes
+2015/02/25 21:11:06 [notice] 22850#0: start worker process 20049
+2015/02/25 23:02:44 [notice] 8070#0: signal process started
+2015/02/25 23:02:44 [notice] 22850#0: signal 15 (SIGTERM) received, exiting
+2015/02/25 23:02:44 [notice] 20049#0: exiting
+2015/02/25 23:02:44 [notice] 22850#0: signal 23 (SIGIO) received
+2015/02/25 23:02:44 [notice] 20049#0: exit
+2015/02/25 23:02:44 [notice] 22850#0: signal 20 (SIGCHLD) received
+2015/02/25 23:02:44 [notice] 22850#0: worker process 20049 exited with code 0
+2015/02/25 23:02:44 [notice] 22850#0: exit
+2015/02/25 23:02:45 [notice] 7836#0: using the "kqueue" event method
+2015/02/25 23:02:45 [notice] 7836#0: nginx/1.6.0
+2015/02/25 23:02:45 [notice] 7836#0: built by gcc 4.2.1 20070719 
+2015/02/25 23:02:45 [notice] 7836#0: getrlimit(RLIMIT_NOFILE): 128:1024
+2015/02/25 23:02:45 [notice] 29578#0: start worker processes
+2015/02/25 23:02:45 [notice] 29578#0: start worker process 19756
+2015/02/25 23:02:49 [crit] 19756#0: *1 connect() to unix:/htdocs/chal01/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal01/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:02:50 [crit] 19756#0: *1 connect() to unix:/htdocs/chal01/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal01/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:04:03 [error] 19756#0: *11 limiting connections by zone "conn", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:03 [error] 19756#0: *12 limiting connections by zone "conn", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:03 [error] 19756#0: *17 limiting connections by zone "conn", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:04 [error] 19756#0: *16 limiting connections by zone "conn", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:04 [error] 19756#0: *17 limiting requests, excess: 10.869 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:04 [error] 19756#0: *12 limiting requests, excess: 10.869 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:04 [error] 19756#0: *11 limiting requests, excess: 10.869 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:04 [error] 19756#0: *9 limiting requests, excess: 10.822 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:04 [error] 19756#0: *9 limiting requests, excess: 10.377 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:04:05 [error] 19756#0: *11 limiting requests, excess: 10.672 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:04:05 [error] 19756#0: *11 limiting requests, excess: 10.514 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:04:05 [error] 19756#0: *11 limiting requests, excess: 10.411 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:04:07 [error] 19756#0: *12 limiting requests, excess: 10.935 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=back HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:07 [error] 19756#0: *17 limiting requests, excess: 10.935 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:07 [error] 19756#0: *10 limiting requests, excess: 10.935 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:07 [error] 19756#0: *16 limiting requests, excess: 10.935 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:07 [error] 19756#0: *16 limiting requests, excess: 10.880 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:07 [error] 19756#0: *16 limiting requests, excess: 10.865 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:07 [error] 19756#0: *16 limiting requests, excess: 10.213 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:04:08 [error] 19756#0: *16 limiting requests, excess: 10.687 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=home HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:08 [error] 19756#0: *11 limiting requests, excess: 10.682 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=back HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:08 [error] 19756#0: *10 limiting requests, excess: 10.676 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:08 [error] 19756#0: *17 limiting requests, excess: 10.672 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:08 [error] 19756#0: *12 limiting requests, excess: 10.661 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:08 [error] 19756#0: *12 limiting requests, excess: 10.636 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:08 [error] 19756#0: *17 limiting requests, excess: 10.625 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:09 [error] 19756#0: *17 limiting requests, excess: 10.012 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:04:09 [error] 19756#0: *17 limiting requests, excess: 10.526 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=home HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:09 [error] 19756#0: *12 limiting requests, excess: 10.519 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=back HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:09 [error] 19756#0: *10 limiting requests, excess: 10.515 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:09 [error] 19756#0: *11 limiting requests, excess: 10.515 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:09 [error] 19756#0: *16 limiting requests, excess: 10.515 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:09 [error] 19756#0: *16 limiting requests, excess: 10.474 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:09 [error] 19756#0: *16 limiting requests, excess: 10.453 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:11 [error] 19756#0: *16 limiting requests, excess: 10.014 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=home HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:11 [error] 19756#0: *11 limiting requests, excess: 10.004 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=back HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:11 [error] 19756#0: *10 limiting requests, excess: 10.978 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:11 [error] 19756#0: *11 limiting requests, excess: 10.978 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:11 [error] 19756#0: *12 limiting requests, excess: 10.978 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:11 [error] 19756#0: *17 limiting requests, excess: 10.906 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:13 [error] 19756#0: *17 limiting requests, excess: 10.685 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=back HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:13 [error] 19756#0: *12 limiting requests, excess: 10.679 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:13 [error] 19756#0: *11 limiting requests, excess: 10.679 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:13 [error] 19756#0: *10 limiting requests, excess: 10.679 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:13 [error] 19756#0: *10 limiting requests, excess: 10.634 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:13 [error] 19756#0: *10 limiting requests, excess: 10.623 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:15 [error] 19756#0: *11 limiting requests, excess: 10.759 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=back HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:15 [error] 19756#0: *12 limiting requests, excess: 10.750 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:15 [error] 19756#0: *16 limiting requests, excess: 10.745 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:15 [error] 19756#0: *17 limiting requests, excess: 10.741 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:15 [error] 19756#0: *17 limiting requests, excess: 10.704 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:04:15 [error] 19756#0: *16 limiting requests, excess: 10.704 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:15 [error] 19756#0: *10 limiting requests, excess: 10.704 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:15 [error] 19756#0: *10 limiting requests, excess: 10.554 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:04:15 [error] 19756#0: *10 limiting requests, excess: 10.412 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:04:18 [error] 19756#0: *17 limiting requests, excess: 10.876 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:18 [error] 19756#0: *17 limiting connections by zone "conn", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:18 [error] 19756#0: *12 limiting requests, excess: 10.876 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:18 [error] 19756#0: *12 limiting connections by zone "conn", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:18 [error] 19756#0: *11 limiting requests, excess: 10.876 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:18 [error] 19756#0: *11 limiting connections by zone "conn", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:18 [error] 19756#0: *16 limiting requests, excess: 10.734 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:18 [error] 19756#0: *16 limiting requests, excess: 10.718 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:18 [error] 19756#0: *16 limiting requests, excess: 10.675 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:04:19 [error] 19756#0: *16 limiting requests, excess: 10.068 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:04:21 [error] 19756#0: *11 limiting requests, excess: 10.969 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:21 [error] 19756#0: *11 limiting connections by zone "conn", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:21 [error] 19756#0: *12 limiting requests, excess: 10.969 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:21 [error] 19756#0: *12 limiting connections by zone "conn", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:21 [error] 19756#0: *17 limiting requests, excess: 10.919 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:21 [error] 19756#0: *10 limiting requests, excess: 10.880 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:04:21 [error] 19756#0: *17 limiting requests, excess: 10.875 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:40 [error] 19756#0: *45 limiting connections by zone "conn", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:40 [error] 19756#0: *40 limiting connections by zone "conn", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:40 [error] 19756#0: *46 limiting connections by zone "conn", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:45 [error] 19756#0: *43 limiting requests, excess: 10.164 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/phpinfo.php HTTP/1.1", host: "obsdhs"
+2015/02/25 23:06:45 [error] 19756#0: *43 limiting requests, excess: 10.044 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/phpinfo.php HTTP/1.1", host: "obsdhs"
+2015/02/25 23:06:45 [error] 19756#0: *43 limiting requests, excess: 10.008 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/phpinfo.php HTTP/1.1", host: "obsdhs"
+2015/02/25 23:06:45 [error] 19756#0: *44 limiting requests, excess: 10.947 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/phpinfo.php HTTP/1.1", host: "obsdhs"
+2015/02/25 23:06:45 [error] 19756#0: *44 limiting requests, excess: 10.880 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/phpinfo.php HTTP/1.1", host: "obsdhs"
+2015/02/25 23:06:45 [error] 19756#0: *44 limiting requests, excess: 10.830 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/phpinfo.php HTTP/1.1", host: "obsdhs"
+2015/02/25 23:06:45 [error] 19756#0: *44 limiting requests, excess: 10.761 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/phpinfo.php HTTP/1.1", host: "obsdhs"
+2015/02/25 23:06:45 [error] 19756#0: *44 limiting requests, excess: 10.730 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/phpinfo.php HTTP/1.1", host: "obsdhs"
+2015/02/25 23:06:45 [error] 19756#0: *44 limiting requests, excess: 10.691 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/phpinfo.php HTTP/1.1", host: "obsdhs"
+2015/02/25 23:06:48 [error] 19756#0: *60 limiting requests, excess: 10.532 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=back HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:48 [error] 19756#0: *61 limiting requests, excess: 10.532 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:48 [error] 19756#0: *62 limiting requests, excess: 10.532 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:48 [error] 19756#0: *63 limiting requests, excess: 10.532 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:48 [error] 19756#0: *63 limiting requests, excess: 10.499 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:48 [error] 19756#0: *63 limiting requests, excess: 10.482 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *63 limiting requests, excess: 10.411 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=home HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *62 limiting requests, excess: 10.402 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=back HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *61 limiting requests, excess: 10.400 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *60 limiting requests, excess: 10.400 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *44 limiting requests, excess: 10.400 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *44 limiting requests, excess: 10.355 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *60 limiting requests, excess: 10.347 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *60 limiting requests, excess: 10.839 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=home HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *44 limiting requests, excess: 10.832 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=back HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *61 limiting requests, excess: 10.828 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=forward HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *62 limiting requests, excess: 10.824 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=up HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *44 limiting requests, excess: 10.813 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=refresh HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *44 limiting requests, excess: 10.789 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:49 [error] 19756#0: *62 limiting requests, excess: 10.786 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=search HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F"
+2015/02/25 23:06:50 [error] 19756#0: *62 limiting requests, excess: 10.446 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=encoder&d=%2Fvar%2Fwww%2F HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php?act=selfremove"
+2015/02/25 23:18:17 [error] 19756#0: *67 limiting requests, excess: 10.134 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.057 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.930 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.900 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.792 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.716 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.688 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.537 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.460 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.441 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.413 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.316 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.287 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.216 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.197 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:18 [error] 19756#0: *67 limiting requests, excess: 10.176 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:20 [error] 19756#0: *67 limiting requests, excess: 10.594 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:21 [error] 19756#0: *67 limiting requests, excess: 10.140 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:22 [error] 19756#0: *67 limiting requests, excess: 10.011 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:18:23 [error] 19756#0: *67 limiting requests, excess: 10.713 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:14 [notice] 1956#0: signal process started
+2015/02/25 23:22:14 [notice] 29578#0: signal 15 (SIGTERM) received, exiting
+2015/02/25 23:22:14 [notice] 19756#0: exiting
+2015/02/25 23:22:14 [notice] 29578#0: signal 23 (SIGIO) received
+2015/02/25 23:22:14 [notice] 19756#0: exit
+2015/02/25 23:22:14 [notice] 29578#0: signal 20 (SIGCHLD) received
+2015/02/25 23:22:14 [notice] 29578#0: worker process 19756 exited with code 0
+2015/02/25 23:22:14 [notice] 29578#0: exit
+2015/02/25 23:22:15 [notice] 13439#0: using the "kqueue" event method
+2015/02/25 23:22:15 [notice] 13439#0: nginx/1.6.0
+2015/02/25 23:22:15 [notice] 13439#0: built by gcc 4.2.1 20070719 
+2015/02/25 23:22:15 [notice] 13439#0: getrlimit(RLIMIT_NOFILE): 128:1024
+2015/02/25 23:22:15 [notice] 274#0: start worker processes
+2015/02/25 23:22:15 [notice] 274#0: start worker process 29979
+2015/02/25 23:22:23 [error] 29979#0: *1 limiting requests, excess: 10.574 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:23 [error] 29979#0: *1 limiting requests, excess: 10.370 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:23 [error] 29979#0: *1 limiting requests, excess: 10.338 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:23 [error] 29979#0: *1 limiting requests, excess: 10.280 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:23 [error] 29979#0: *1 limiting requests, excess: 10.008 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:23 [error] 29979#0: *1 limiting requests, excess: 10.630 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:24 [error] 29979#0: *1 limiting requests, excess: 10.394 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:25 [error] 29979#0: *1 limiting requests, excess: 10.784 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:25 [error] 29979#0: *1 limiting requests, excess: 10.712 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:25 [error] 29979#0: *1 limiting requests, excess: 10.518 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:26 [error] 29979#0: *1 limiting requests, excess: 10.296 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:26 [error] 29979#0: *1 limiting requests, excess: 10.160 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:26 [error] 29979#0: *1 limiting requests, excess: 10.104 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:26 [error] 29979#0: *1 limiting requests, excess: 10.542 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:28 [error] 29979#0: *1 limiting requests, excess: 10.010 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:29 [error] 29979#0: *1 limiting requests, excess: 10.062 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:29 [error] 29979#0: *1 limiting requests, excess: 10.036 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:29 [error] 29979#0: *1 limiting requests, excess: 10.792 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:29 [error] 29979#0: *1 limiting requests, excess: 10.762 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:29 [error] 29979#0: *1 limiting requests, excess: 10.550 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:29 [error] 29979#0: *1 limiting requests, excess: 10.514 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:30 [error] 29979#0: *1 limiting requests, excess: 10.308 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:30 [error] 29979#0: *1 limiting requests, excess: 10.280 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/25 23:22:30 [error] 29979#0: *1 limiting requests, excess: 10.116 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /status HTTP/1.1", host: "obsdhs"
+2015/02/26 00:14:28 [error] 29979#0: *2 directory index of "/htdocs/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET / HTTP/1.1", host: "obsdhs"
+2015/02/26 00:14:30 [error] 29979#0: *2 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/26 00:14:32 [error] 29979#0: *2 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/26 00:14:40 [error] 29979#0: *2 limiting requests, excess: 10.134 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=sort_asc HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 00:14:40 [error] 29979#0: *2 limiting requests, excess: 10.106 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=small_dir HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 00:14:40 [error] 29979#0: *2 limiting requests, excess: 10.078 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=ext_diz HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 00:14:40 [error] 29979#0: *2 limiting requests, excess: 10.054 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=ext_lnk HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 00:14:40 [error] 29979#0: *2 limiting requests, excess: 10.012 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=ext_php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 00:14:40 [error] 29979#0: *2 limiting requests, excess: 10.870 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=download HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 00:14:40 [error] 29979#0: *2 limiting requests, excess: 10.842 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=arrow_ltr HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 00:17:03 [error] 29979#0: *25 limiting requests, excess: 10.524 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=buffer HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 00:17:03 [error] 29979#0: *25 limiting requests, excess: 10.496 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=change HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 00:17:03 [error] 29979#0: *25 limiting requests, excess: 10.456 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=ext_php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 00:17:03 [error] 29979#0: *25 limiting requests, excess: 10.432 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=arrow_ltr HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 01:10:39 [error] 29979#0: *59 limiting requests, excess: 10.010 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=ext_php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 01:10:39 [error] 29979#0: *59 limiting requests, excess: 10.810 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=download HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 01:10:39 [error] 29979#0: *59 limiting requests, excess: 10.762 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=arrow_ltr HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 01:13:25 [error] 29979#0: *76 limiting requests, excess: 10.572 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=ext_lnk HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 01:13:25 [error] 29979#0: *76 limiting requests, excess: 10.546 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=change HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 01:13:25 [error] 29979#0: *76 limiting requests, excess: 10.440 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=ext_php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 01:13:25 [error] 29979#0: *76 limiting requests, excess: 10.414 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/index.php?act=img&img=arrow_ltr HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal01/index.php"
+2015/02/26 01:21:05 [error] 29979#0: *101 open() "/htdocs/chal02/index.php" failed (13: Permission denied), client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/"
+2015/02/26 01:21:11 [error] 29979#0: *101 open() "/htdocs/chal02/index.php" failed (13: Permission denied), client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/"
+2015/02/26 01:21:12 [error] 29979#0: *101 open() "/htdocs/chal02/index.php" failed (13: Permission denied), client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/"
+2015/02/26 01:21:13 [error] 29979#0: *101 open() "/htdocs/chal02/index.php" failed (13: Permission denied), client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/"
+2015/02/26 01:21:29 [error] 29979#0: *115 open() "/htdocs/chal02/index.php" failed (2: No such file or directory), client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/"
+2015/02/26 01:21:49 [error] 29979#0: *116 open() "/htdocs/chal02/index.php" failed (2: No such file or directory), client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/"
+2015/02/26 01:21:50 [error] 29979#0: *116 open() "/htdocs/chal02/index.php" failed (2: No such file or directory), client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/"
+2015/02/26 01:21:50 [error] 29979#0: *116 open() "/htdocs/chal02/index.php" failed (2: No such file or directory), client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/"
+2015/02/26 01:22:58 [emerg] 30518#0: unexpected "}" in /etc/nginx/conf.d/obsdhs.conf:36
+2015/02/26 01:22:58 [notice] 274#0: signal 15 (SIGTERM) received, exiting
+2015/02/26 01:22:58 [notice] 29979#0: exiting
+2015/02/26 01:22:58 [notice] 274#0: signal 23 (SIGIO) received
+2015/02/26 01:22:58 [notice] 29979#0: exit
+2015/02/26 01:22:58 [notice] 274#0: signal 20 (SIGCHLD) received
+2015/02/26 01:22:58 [notice] 274#0: worker process 29979 exited with code 0
+2015/02/26 01:22:58 [notice] 274#0: exit
+2015/02/26 01:22:59 [emerg] 20233#0: unexpected "}" in /etc/nginx/conf.d/obsdhs.conf:36
+2015/02/26 01:23:03 [emerg] 6397#0: unexpected "}" in /etc/nginx/conf.d/obsdhs.conf:36
+2015/02/26 01:23:27 [notice] 3741#0: using the "kqueue" event method
+2015/02/26 01:23:27 [notice] 3741#0: nginx/1.6.0
+2015/02/26 01:23:27 [notice] 3741#0: built by gcc 4.2.1 20070719 
+2015/02/26 01:23:27 [notice] 3741#0: getrlimit(RLIMIT_NOFILE): 128:1024
+2015/02/26 01:23:27 [notice] 4135#0: start worker processes
+2015/02/26 01:23:27 [notice] 4135#0: start worker process 1374
+2015/02/26 01:23:29 [error] 1374#0: *1 limiting requests, excess: 10.520 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php?act=img&img=small_dir HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal02/index.php"
+2015/02/26 01:23:29 [error] 1374#0: *1 limiting requests, excess: 10.498 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php?act=img&img=sort_asc HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal02/index.php"
+2015/02/26 01:23:29 [error] 1374#0: *1 limiting requests, excess: 10.480 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php?act=img&img=arrow_ltr HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal02/index.php"
+2015/02/26 01:23:29 [error] 1374#0: *1 limiting requests, excess: 10.460 by zone "req", client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php?act=img&img=ext_php HTTP/1.1", host: "obsdhs", referrer: "http://obsdhs/chal02/index.php"
+2015/02/26 01:28:38 [error] 1374#0: *14 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: shortName in /var/www/index.php on line 14" while reading response header from upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal02/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/"
+2015/02/26 01:29:17 [error] 1374#0: *16 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: shortName in /var/www/index.php on line 15" while reading response header from upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal02/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/"
+2015/02/26 01:29:54 [error] 1374#0: *18 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: shortName in /var/www/index.php on line 15" while reading response header from upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal02/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/"
+2015/02/26 01:45:54 [notice] 21162#0: signal process started
+2015/02/26 01:45:54 [notice] 4135#0: signal 15 (SIGTERM) received, exiting
+2015/02/26 01:45:54 [notice] 1374#0: exiting
+2015/02/26 01:45:54 [notice] 4135#0: signal 23 (SIGIO) received
+2015/02/26 01:45:54 [notice] 1374#0: exit
+2015/02/26 01:45:54 [notice] 4135#0: signal 20 (SIGCHLD) received
+2015/02/26 01:45:54 [notice] 4135#0: worker process 1374 exited with code 0
+2015/02/26 01:45:54 [notice] 4135#0: exit
+2015/02/26 01:45:54 [notice] 19491#0: using the "kqueue" event method
+2015/02/26 01:45:54 [notice] 19491#0: nginx/1.6.0
+2015/02/26 01:45:54 [notice] 19491#0: built by gcc 4.2.1 20070719 
+2015/02/26 01:45:54 [notice] 19491#0: getrlimit(RLIMIT_NOFILE): 128:1024
+2015/02/26 01:45:54 [notice] 8935#0: start worker processes
+2015/02/26 01:45:54 [notice] 8935#0: start worker process 242
+2015/02/26 02:35:27 [crit] 242#0: *1 connect() to unix:/htdocs/chal02/var/run/php-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php?a=echo+%27test%27%3B HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal02/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/chal02/index.php?a=asdf"
+2015/02/26 02:35:28 [crit] 242#0: *1 connect() to unix:/htdocs/chal02/var/run/php-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php?a=echo+%27test%27%3B HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal02/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/chal02/index.php?a=asdf"
+2015/02/26 02:35:45 [error] 242#0: *4 directory index of "/htdocs/chal02/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/ HTTP/1.1", host: "obsdhs"
+2015/02/26 02:35:45 [error] 242#0: *4 directory index of "/htdocs/chal02/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/ HTTP/1.1", host: "obsdhs"
+2015/02/26 02:35:46 [error] 242#0: *4 directory index of "/htdocs/chal02/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/ HTTP/1.1", host: "obsdhs"
+2015/02/26 02:37:10 [notice] 28400#0: signal process started
+2015/02/26 02:37:10 [notice] 8935#0: signal 15 (SIGTERM) received, exiting
+2015/02/26 02:37:10 [notice] 242#0: exiting
+2015/02/26 02:37:10 [notice] 8935#0: signal 23 (SIGIO) received
+2015/02/26 02:37:10 [notice] 242#0: exit
+2015/02/26 02:37:10 [notice] 8935#0: signal 20 (SIGCHLD) received
+2015/02/26 02:37:10 [notice] 8935#0: worker process 242 exited with code 0
+2015/02/26 02:37:10 [notice] 8935#0: exit
+2015/02/26 02:37:10 [notice] 20958#0: using the "kqueue" event method
+2015/02/26 02:37:10 [notice] 20958#0: nginx/1.6.0
+2015/02/26 02:37:10 [notice] 20958#0: built by gcc 4.2.1 20070719 
+2015/02/26 02:37:10 [notice] 20958#0: getrlimit(RLIMIT_NOFILE): 128:1024
+2015/02/26 02:37:10 [notice] 2843#0: start worker processes
+2015/02/26 02:37:10 [notice] 2843#0: start worker process 19704
+2015/02/26 02:37:11 [error] 19704#0: *1 directory index of "/htdocs/chal02/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/ HTTP/1.1", host: "obsdhs"
+2015/02/26 02:37:12 [error] 19704#0: *1 directory index of "/htdocs/chal02/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/ HTTP/1.1", host: "obsdhs"
+2015/02/26 02:37:15 [error] 19704#0: *1 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/26 02:37:16 [error] 19704#0: *1 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/26 02:37:39 [notice] 23603#0: signal process started
+2015/02/26 02:37:39 [notice] 2843#0: signal 15 (SIGTERM) received, exiting
+2015/02/26 02:37:39 [notice] 19704#0: exiting
+2015/02/26 02:37:39 [notice] 2843#0: signal 23 (SIGIO) received
+2015/02/26 02:37:39 [notice] 19704#0: exit
+2015/02/26 02:37:39 [notice] 2843#0: signal 20 (SIGCHLD) received
+2015/02/26 02:37:39 [notice] 2843#0: worker process 19704 exited with code 0
+2015/02/26 02:37:39 [notice] 2843#0: exit
+2015/02/26 02:37:40 [notice] 16057#0: using the "kqueue" event method
+2015/02/26 02:37:40 [notice] 16057#0: nginx/1.6.0
+2015/02/26 02:37:40 [notice] 16057#0: built by gcc 4.2.1 20070719 
+2015/02/26 02:37:40 [notice] 16057#0: getrlimit(RLIMIT_NOFILE): 128:1024
+2015/02/26 02:37:40 [notice] 14636#0: start worker processes
+2015/02/26 02:37:40 [notice] 14636#0: start worker process 18335
+2015/02/26 02:37:40 [error] 18335#0: *1 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/26 02:37:41 [error] 18335#0: *1 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/26 02:37:42 [error] 18335#0: *1 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/26 02:37:42 [error] 18335#0: *1 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/26 02:37:43 [error] 18335#0: *1 directory index of "/htdocs/chal01/" is forbidden, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal01/ HTTP/1.1", host: "obsdhs"
+2015/02/26 02:42:45 [crit] 18335#0: *18 connect() to unix:/htdocs/chal02/var/run/php-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php?a=echo+exec%28%27nc+-h+2%3E%261%27%29%3B HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal02/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/chal02/index.php?a=echo+exec%28%27nc+--help+2%3E%261%27%29%3B"
+2015/02/26 02:42:51 [notice] 2125#0: signal process started
+2015/02/26 02:42:51 [notice] 14636#0: signal 15 (SIGTERM) received, exiting
+2015/02/26 02:42:51 [notice] 18335#0: exiting
+2015/02/26 02:42:51 [notice] 14636#0: signal 23 (SIGIO) received
+2015/02/26 02:42:51 [notice] 18335#0: exit
+2015/02/26 02:42:51 [notice] 14636#0: signal 20 (SIGCHLD) received
+2015/02/26 02:42:51 [notice] 14636#0: worker process 18335 exited with code 0
+2015/02/26 02:42:51 [notice] 14636#0: exit
+2015/02/26 02:42:52 [notice] 16089#0: using the "kqueue" event method
+2015/02/26 02:42:52 [notice] 16089#0: nginx/1.6.0
+2015/02/26 02:42:52 [notice] 16089#0: built by gcc 4.2.1 20070719 
+2015/02/26 02:42:52 [notice] 16089#0: getrlimit(RLIMIT_NOFILE): 128:1024
+2015/02/26 02:42:52 [notice] 30338#0: start worker processes
+2015/02/26 02:42:52 [notice] 30338#0: start worker process 11301
+2015/02/26 02:42:53 [crit] 11301#0: *1 connect() to unix:/htdocs/chal02/var/run/php-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php?a=echo+exec%28%27nc+-h+2%3E%261%27%29%3B HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal02/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/chal02/index.php?a=echo+exec%28%27nc+--help+2%3E%261%27%29%3B"
+2015/02/26 02:42:54 [crit] 11301#0: *1 connect() to unix:/htdocs/chal02/var/run/php-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php?a=echo+exec%28%27nc+-h+2%3E%261%27%29%3B HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal02/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/chal02/index.php?a=echo+exec%28%27nc+--help+2%3E%261%27%29%3B"
+2015/02/26 02:42:55 [crit] 11301#0: *1 connect() to unix:/htdocs/chal02/var/run/php-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php?a=echo+exec%28%27nc+-h+2%3E%261%27%29%3B HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal02/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/chal02/index.php?a=echo+exec%28%27nc+--help+2%3E%261%27%29%3B"
+2015/02/26 02:42:56 [crit] 11301#0: *1 connect() to unix:/htdocs/chal02/var/run/php-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php?a=echo+exec%28%27nc+--help+2%3E%261%27%29%3B HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal02/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/chal02/index.php?a=echo+exec%28%27nc+-h+2%3E%261%27%29%3B"
+2015/02/26 02:42:56 [crit] 11301#0: *1 connect() to unix:/htdocs/chal02/var/run/php-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 192.168.56.1, server: 0.0.0.0, request: "GET /chal02/index.php?a=echo+exec%28%27nc+--help+2%3E%261%27%29%3B HTTP/1.1", upstream: "fastcgi://unix:/htdocs/chal02/var/run/php-fpm.sock:", host: "obsdhs", referrer: "http://obsdhs/chal02/index.php?a=echo+exec%28%27nc+-h+2%3E%261%27%29%3B"

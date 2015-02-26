@@ -5,7 +5,7 @@ int main() {
     char *name[] = {
         "/bin/systrace",
         "-i",
-        "-a",
+        "-A",
         "-E",
         "/var/log/systrace.log",
         "/bin/ksh",
